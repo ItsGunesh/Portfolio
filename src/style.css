@@ -63,8 +63,9 @@ h4{
 }
 
 h5{
-  font-size: 15px;
+  font-size: 18px;
   padding: 50px 0px;
+  font-weight: 300;
 }
 
 .Name{
@@ -79,6 +80,7 @@ h5{
 .navigator ul{
   list-style-type: none;
   padding: 40px;
+  font-weight: 700;
   /* border: 1px solid white; */
 
 }
@@ -134,7 +136,7 @@ h5{
   max-width: 100%;
 }
 
-.about span{
+span{
   color: #e2e9f1;
 }
 
@@ -152,6 +154,7 @@ h5{
 
 #projects{
   margin-top: 40px;
+  padding-top: 40px;
 }
 
 .proj-box{
@@ -166,6 +169,7 @@ h5{
   background-color: rgba(77, 92, 119 ,0.2);
   border-radius: 10px;
   transition: ease-in-out;
+  cursor: pointer;
 }
 
 
@@ -184,3 +188,14 @@ h5{
 .proj-info p{
   font-size: 15px;
 }
+
+.End{
+  padding-top:100px ;
+  justify-content: center;
+  text-align: center;
+}
+
+
+
+
+/* Brittany Chiang */
