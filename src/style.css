@@ -17,12 +17,15 @@
 body{
   position: relative;
   display: flex;
+  min-height: 100vh;
+  overflow-x: hidden;
+  width: 100%;
 }
 
 
 nav{
   color: #7686a4;
-  width: 50vw;
+  width: 50%;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -32,7 +35,11 @@ nav{
   padding-left: 140px;
   /* border: 2px solid white; */
   gap: 50px;
-  position: sticky;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-y: auto;
+  box-sizing: border-box;
 }
 
 h1{
@@ -90,19 +97,36 @@ h5{
 }
 
 .scroll{
-  width: 50vw;
-  padding-right: 60px;
-  padding-top: 100px;
+  width: 50%;
+  margin-left: 50%;
+  padding: 100px 60px 60px 60px;
   color: #7686a4;
   font-size: 18px;
+  overflow-y: auto;
+  min-height: 100vh;
+  box-sizing: border-box;
+  position: relative;
 }
 
 .about{
   display: flex;
   flex-direction: column;
   gap: 30px;
+  max-width: 100%;
 }
 
 .about span{
   color: #e2e9f1;
+}
+
+.tech-stack h3{
+  padding-top: 40px;
+}
+
+.tech-stack div{
+  padding-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 40px;
 }
