@@ -21,7 +21,7 @@ body{
 
 
 nav{
-  color: #e2e9f1;
+  color: #7686a4;
   width: 50vw;
   height: 100vh;
   display: flex;
@@ -37,12 +37,14 @@ nav{
 
 h1{
   font-size: 55px;
+  color: #e2e9f1;
   /* padding: 10px; */
 }
 
 h3{
   font-size: 25px;
   /* padding: 5px; */
+  color: #e2e9f1;
 }
 
 h5{
@@ -83,6 +85,24 @@ h5{
 }
 
 .clr{
-    color: #e2e9f1;
+    color: #7686a4;
     font-size: 25px;
+}
+
+.scroll{
+  width: 50vw;
+  padding-right: 60px;
+  padding-top: 100px;
+  color: #7686a4;
+  font-size: 18px;
+}
+
+.about{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.about span{
+  color: #e2e9f1;
 }
