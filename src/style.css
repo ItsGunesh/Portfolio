@@ -14,37 +14,75 @@
 #132e46
 #3e9da2 
 */
+body{
+  position: relative;
+  display: flex;
+}
+
 
 nav{
   color: #e2e9f1;
-  width: 100vh;
+  width: 50vw;
   height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
+  align-items: start;
+  justify-content: center;
   text-align: left;
+  padding-left: 140px;
+  /* border: 2px solid white; */
+  gap: 50px;
+  position: sticky;
 }
 
 h1{
-  font-size: 50px;
+  font-size: 55px;
+  /* padding: 10px; */
 }
 
 h3{
   font-size: 25px;
+  /* padding: 5px; */
 }
 
 h5{
   font-size: 15px;
+  padding: 50px 0px;
 }
 
 .Name{
+  width: 375px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 40px;
+  padding: 0px 40px;
+  /* border: 1px solid white; */
 }
 
 .navigator ul{
   list-style-type: none;
+  padding: 40px;
+  /* border: 1px solid white; */
+
+}
+
+.navigator ul li{
+  padding: 5px;
+}
+
+.contact {
+  padding: 0px 30px;
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid white; */
+}
+
+.contact a{
+  padding: 10px;
+
+}
+
+.clr{
+    color: #e2e9f1;
+    font-size: 25px;
 }
