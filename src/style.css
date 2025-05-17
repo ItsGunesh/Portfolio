@@ -1,7 +1,7 @@
 *{
   margin: 0;
   padding: 0;
-  background-color: #0e172b;
+
   font-family: "Nunito Sans", sans-serif;
 }
 
@@ -20,7 +20,7 @@ body{
   min-height: 100vh;
   overflow-x: hidden;
   width: 100%;
-  background-color: #0e172b;
+  background-color: #0e172b;;
   color: #7686a4;
 }
 
@@ -55,6 +55,11 @@ h3{
   font-size: 25px;
   /* padding: 5px; */
   color: #e2e9f1;
+}
+
+h4{
+  color: #e2e9f1;
+  font-size: 20px;
 }
 
 h5{
@@ -119,6 +124,7 @@ h5{
   min-height: 100vh;
   box-sizing: border-box;
   position: relative;
+  /* background-color: #0e172b; */
 }
 
 .about{
@@ -142,4 +148,39 @@ h5{
   align-items: center;
   justify-content: start;
   gap: 40px;
+}
+
+#projects{
+  margin-top: 40px;
+}
+
+.proj-box{
+  display: flex;
+  padding: 30px;
+  gap: 20px;
+  box-sizing: border-box;
+  /* border: 1px solid white; */
+}
+
+.proj-box:hover{
+  background-color: rgba(77, 92, 119 ,0.2);
+  border-radius: 10px;
+  transition: ease-in-out;
+}
+
+
+.proj-box img{
+  width: 250px;
+  height: auto;
+  object-fit: contain;
+}
+
+.proj-info{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.proj-info p{
+  font-size: 15px;
 }
