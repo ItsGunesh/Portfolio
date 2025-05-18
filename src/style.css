@@ -199,3 +199,61 @@ span{
 
 
 /* Brittany Chiang */
+
+/* Media Queries for Mobile Devices */
+@media screen and (max-width: 768px) {
+  body {
+    flex-direction: column;
+  }
+
+  nav {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .Name {
+    width: 100%;
+    padding: 0;
+    align-items: center;
+  }
+
+  .navigator ul {
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .contact {
+    padding: 20px 0;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .scroll {
+    width: 100%;
+    margin-left: 0;
+    padding: 20px;
+  }
+
+  .proj-box {
+    flex-direction: column;
+  }
+
+  .proj-box img {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+}
