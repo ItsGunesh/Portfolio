@@ -200,7 +200,6 @@ span{
 
 /* Brittany Chiang */
 
-/* Media Queries for Mobile Devices */
 @media screen and (max-width: 768px) {
   body {
     flex-direction: column;
