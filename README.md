@@ -1,6 +1,7 @@
 # Portfolio Website
 
-Its my portfolio website!
+Its my portfolio website-live and responsive!
+
 
 Tech Stack used : HTML , CSS 
 
