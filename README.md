@@ -1,6 +1,9 @@
 # Portfolio Website
 
-Its my portfolio website!
+Its my portfolio website-live and responsive!  
+https://pranay-nimje-portfolio.netlify.app/
+
+
 
 Tech Stack used : HTML , CSS 
 
