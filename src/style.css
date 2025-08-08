@@ -108,6 +108,7 @@ h5{
 
 .contact a{
   padding: 10px;
+  transition: color 0.3s ease
 
 }
 
